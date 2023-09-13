@@ -1,4 +1,14 @@
+# Espen's notes 
+
+```bash
+terraform plan --out=oci-mysql-idc.fra.tfplan --var-file=config/vars_fra.tfvars
+
+terraform apply "oci-mysql-idc.fra.tfplan"
+```
+
 # oci-mysql-idc
+
+Based off work done by LeFred. With some modifications. 
 
 These are Terraform modules that deploy [MySQL](https://www.mysql.com/) on [Oracle Cloud Infrastructure (OCI)](https://cloud.oracle.com/en_US/cloud-infrastructure).
 
